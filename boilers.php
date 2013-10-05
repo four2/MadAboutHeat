@@ -35,7 +35,7 @@
                             <?php include "_/components/php/wb/wb5.php"; ?>
                         </div><!--  End Wrapper Div  -->
                     </div><!--  End Content Div  -->
-                </div><!--  End Wrapper Div  -->
+                </div><!--  End Row Div  -->
             </section><!--  End Container Section  -->
             <footer>
                 <?php include "_/components/php/footer.php"; ?>
