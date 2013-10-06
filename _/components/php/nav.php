@@ -14,7 +14,8 @@
 		  <div class="collapse navbar-collapse navbar-ex1-collapse">
 		    <ul class="nav navbar-nav navbar-right">
 				<li><a href="index.php">Home</a></li>
-		      <li class="dropdown">
+				<li><a href="boilers.php">Boiler Range</a></li>
+		     <!--  <li class="dropdown">
 		        <a href="#" class="dropdown-toggle" data-toggle="dropdown">WB Series <b class="caret"></b></a>
 		        <ul class="dropdown-menu">
 			        <li><a href="boilers.php">WB 5</a></li>
@@ -53,8 +54,8 @@
 			        <li><a href="boilers.php">PBI 100</a></li>
 			        <li><a href="boilers.php">PBI 150</a></li>
 		        </ul>
-		      </li>
-		    <li><a href="faqs.html">FAQ's</a></li>
+		      </li> -->
+		    <li><a href="#">FAQ's</a></li>
 	        <li><a href="contact.php">Contact</a></li>
 
 <!--				<li><a href="about.html">About</a></li>

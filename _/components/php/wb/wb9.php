@@ -8,7 +8,7 @@
     <section id="content" class="content">
         <div class="boiler-main col-xs-12 col-sm-7 col-md-8 col-lg-9">
             <h3>WB 9</h3>
-            <h4 class="text-right">Price: £1,384.50</h4>
+            <h4 class="text-right">Price: £1,559.40</h4>
             <table class="table table-striped table-bordered">
                 <tr>
                     <td>Parameters / Boiler Type</td>

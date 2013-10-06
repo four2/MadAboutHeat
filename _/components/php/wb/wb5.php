@@ -76,9 +76,9 @@
         </div>
         <div class="col-xs-12 col-sm-5 col-md-4 col-lg-3">
             <aside class="boiler-aside">
-                <div class="photoset-grid-lightbox" data-layout="12121" style="visibility: hidden;">
+                <!-- <div class="photoset-grid-lightbox" data-layout="12121" style="visibility: hidden;"> -->
                     <img src="img/boilers/wb/wb5_sml.png" data-highres="img/boilers/wb/wb5_lrg.png" alt="" />
-                </div><!--  End photoset Div  -->
+                <!-- </div> --><!--  End photoset Div  -->
                 Boiler image to go in here
             </aside><!--  End Boiler Aside  -->
         </div>
