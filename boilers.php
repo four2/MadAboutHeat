@@ -32,7 +32,7 @@
                     </div><!--  End Left Nav Div  -->
                     <div id="content" class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
                         <div id="wrapper">
-                            <?php include "_/components/php/wb/wb5.php"; ?>
+                            <?php include "_/components/php/boiler_range.php"; ?>
                         </div><!--  End Wrapper Div  -->
                     </div><!--  End Content Div  -->
                 </div><!--  End Row Div  -->

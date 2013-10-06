@@ -76,12 +76,20 @@
         </div>
         <div class="col-xs-12 col-sm-5 col-md-4 col-lg-3">
             <aside class="boiler-aside">
-                <!-- <div class="photoset-grid-lightbox" data-layout="12121" style="visibility: hidden;"> -->
+                <div class="photoset-grid-lightbox" data-layout="12121" style="visibility: hidden;">
                     <img src="img/boilers/wb/wb5_sml.png" data-highres="img/boilers/wb/wb5_lrg.png" alt="" />
-<!--             </div> --><!--  End photoset Div  -->
+                </div><!--  End photoset Div  -->
                 Boiler image to go in here
             </aside><!--  End Boiler Aside  -->
         </div>
+        <script type="text/javascript" src="js/modernizr.custom.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+        <script src="js/jquery.photoset-grid.min.js" type="text/javascript"></script>
+        <script src="js/jquery.colorbox.js" type="text/javascript"></script>
+        <script src="js/jquery.backstretch.min.js" type="text/javascript"></script>
+        <script src="bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+        <script type="text/javascript" src="js/script.js"></script>
+        <script type="text/javascript">parallax(); navbar_change(); slider_top(); photo_grid();</script>
     </section><!--  End Section Content  -->
 </body>
 </html>
