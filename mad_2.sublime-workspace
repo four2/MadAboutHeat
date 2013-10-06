@@ -4,6 +4,26 @@
 		"selected_items":
 		[
 			[
+				"re",
+				"ready"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"t",
+				"table	Tag"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"dd",
+				"DDDDDD"
+			],
+			[
 				"text",
 				"text-align"
 			],
@@ -59,33 +79,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "boilers.php",
-			"settings":
-			{
-				"buffer_size": 2166,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "// Fix for dropdowns on mobile devices\n!function ($) { \n        $(function(){\n          $('body').on('touchstart.dropdown', '.dropdown-menu', function (e) { \n              e.stopPropagation(); \n          });\n          $(document).on('click','.dropdown-menu a',function(){\n              document.location = $(this).attr('href');\n          });\n        })\n      }(window.jQuery)\n\nfunction portfolio_effects() {\n\n    //To switch directions up/down and left/right just place a \"-\" in front of the top/left attribute\n    //Vertical Sliding\n    $('.boxgrid.slidedown').hover(function () {\n        $(\".cover\", this).stop().animate({\n            top: '-260px'\n        }, {\n            queue: false,\n            duration: 300\n        });\n    }, function () {\n        $(\".cover\", this).stop().animate({\n            top: '0px'\n        }, {\n            queue: false,\n            duration: 300\n        });\n    });\n    //Horizontal Sliding\n    $('.boxgrid.slideright').hover(function () {\n        $(\".cover\", this).stop().animate({\n            left: '425px'\n        }, {\n            queue: false,\n            duration: 300\n        });\n    }, function () {\n        $(\".cover\", this).stop().animate({\n            left: '0px'\n        }, {\n            queue: false,\n            duration: 300\n        });\n    });\n    //Diagnal Sliding\n    $('.boxgrid.thecombo').hover(function () {\n        $(\".cover\", this).stop().animate({\n            top: '260px',\n            left: '325px'\n        }, {\n            queue: false,\n            duration: 300\n        });\n    }, function () {\n        $(\".cover\", this).stop().animate({\n            top: '0px',\n            left: '0px'\n        }, {\n            queue: false,\n            duration: 300\n        });\n    });\n    //Full Caption Sliding (Hidden to Visible)\n    $('.boxgrid.captionfull').hover(function () {\n        $(\".cover\", this).stop().animate({\n            top: '160px'\n        }, {\n            queue: false,\n            duration: 160\n        });\n    }, function () {\n        $(\".cover\", this).stop().animate({\n            top: '260px'\n        }, {\n            queue: false,\n            duration: 160\n        });\n    });\n    //Caption Sliding (Partially Hidden to Visible)\n    $('.boxgrid.caption').hover(function () {\n        $(\".cover\", this).stop().animate({\n            top: '160px'\n        }, {\n            queue: false,\n            duration: 160\n        });\n    }, function () {\n        $(\".cover\", this).stop().animate({\n            top: '220px'\n        }, {\n            queue: false,\n            duration: 160\n        });\n    });\n\n}\n\nfunction large_slider_top() {\n    $(\".large-slider-bg\").backstretch([\n        \"img/big/big-1.jpg\", \"img/big/big-2.jpg\", \"img/big/big-4.jpg\"\n    ], {\n        duration: 10000,\n        fade: 750\n    });\n}\n\nfunction medium_slider_top() {\n    $(\".medium-slider-bg\").backstretch([\n        \"img/big/big-1.jpg\", \"img/big/big-2.jpg\", \"img/big/big-4.jpg\"\n    ], {\n        duration: 10000,\n        fade: 750\n    });\n}\n\nfunction slider_top() {\n    $(\".slider-bg\").backstretch([\n        \"img/big/big-1.jpg\", \"img/big/big-2.jpg\", \"img/big/big-4.jpg\"\n    ], {\n        duration: 10000,\n        fade: 750\n    });\n}\n\n\nfunction parallax_slider() {\n\n    $('#da-slider').cslider({\n        autoplay: true,\n        interval: 10600\n    });\n}\n\nfunction parallax() {\n    $(window).scroll(function () {\n        s = $(window).scrollTop();\n        $(\".top-parallax\").css(\"-webkit-transform\", \"translateY(\" + (s / 3) + \"px)\");\n        $(\".top-parallax\").css(\"-o-transform\", \"translateY(\" + (s / 3) + \"px)\");\n        $(\".top-parallax\").css(\"-moz-transform\", \"translateY(\" + (s / 3) + \"px)\");\n        $(\".top-parallax\").css(\"-ms-transform\", \"translateY(\" + (s / 3) + \"px)\");\n        $(\".top-parallax\").css(\"transform\", \"translateY(\" + (s / 3) + \"px)\");\n    });\n}\n\nfunction clients() {\n\n    $('.flexslider').flexslider({\n        animation: \"slide\",\n        animationLoop: true,\n        itemWidth: 144,\n        itemMargin: 5,\n        minItems: 1,\n        maxItems: 8,\n        controlNav: false,\n        directionNav: false\n    });\n}\n\nfunction large_navbar_change() {\n    $(window).scroll(function () {\n        if ($(window).scrollTop() > 650) {\n            $('.navbar-default').css('background', '#ffffff');\n        } else if ($(window).scrollTop() < 650) {\n            $('.navbar-default').css('background', 'none');\n        }\n    });\n\n    $(window).scroll(function () {\n        if ($(window).scrollTop() > 630) {\n            $('.navbar .nav > li > a').css('color', '#000000');\n            $('.navbar-brand').css('color', '#000000');\n        } else if ($(window).scrollTop() < 630) {\n            $('.navbar .nav > li > a').css('color', '#ffffff');\n            $('.navbar-brand').css('color', '#ffffff');\n        }\n    });\n}\n\nfunction navbar_change() {\n    $(window).scroll(function () {\n        if ($(window).scrollTop() > 350) {\n            $('.navbar-default').css('background', '#ffffff');\n        } else if ($(window).scrollTop() < 350) {\n            $('.navbar-default').css('background', 'none');\n        }\n    });\n\n    $(window).scroll(function () {\n        if ($(window).scrollTop() > 330) {\n            $('.navbar .nav > li > a').css('color', '#000000');\n            $('.navbar-brand').css('color', '#000000');\n        } else if ($(window).scrollTop() < 330) {\n            $('.navbar .nav > li > a').css('color', '#ffffff');\n            $('.navbar-brand').css('color', '#ffffff');\n        }\n    });\n}\n\nfunction medium_navbar_change() {\n    $(window).scroll(function () {\n        if ($(window).scrollTop() > 500) {\n            $('.navbar-default').css('background', '#ffffff');\n        } else if ($(window).scrollTop() < 500) {\n            $('.navbar-default').css('background', 'none');\n        }\n    });\n    $(window).scroll(function () {\n        if ($(window).scrollTop() > 480) {\n            $('.navbar .nav > li > a').css('color', '#000000');\n            $('.navbar-brand').css('color', '#000000');\n        } else if ($(window).scrollTop() < 480) {\n            $('.navbar .nav > li > a').css('color', '#ffffff');\n            $('.navbar-brand').css('color', '#ffffff');\n        }\n    });\n}\n\nfunction map() {\n    new GMaps({\n        div: '#map',\n        lat: 54.414424,\n        lng: -6.869674,\n        scrollwheel: false,\n        zoom: 10\n    });\n}\n\nfunction image_top() {\n    $(\".slider-bg\").backstretch(\"img/big/big-5.jpg\");\n}\n\nfunction slider() {\n    $('.flexslider').flexslider({\n        animation: \"slide\",\n        controlNav: false,\n        directionNav: false\n    });\n}\n\nfunction video() {\n    $(\"#video\").fitVids();\n}\n\nfunction photo_grid() {\n    $('.photoset-grid-lightbox').photosetGrid({\n        highresLinks: true,\n        rel: 'withhearts-gallery',\n        gutter: '2px',\n\n        onComplete: function () {\n            $('.photoset-grid-lightbox').attr('style', '');\n            $('.photoset-grid-lightbox a').colorbox({\n                photo: true,\n                scalePhotos: true,\n                maxHeight: '90%',\n                maxWidth: '90%'\n            });\n        }\n    });\n}\n\nfunction countdown() {\n    \"use strict\";\n\n    $('time').countDown({\n        with_separators: false\n    });\n\n    $('.cd').countDown({\n        css_class: 'countdown'\n    });\n}\n\n\n\n$(\"#wb5\").click(function() {\n        $('#target').load('_/components/php/wb/wb5.php') ;\n});\n$(\"#wb9\").click(function() {\n        $('#target').load('_/components/php/wb/wb9.php') ;\n});\n$(\"#wb12\").click(function() {\n        $('#target').load('_/components/php/wb/wb5.php') ;\n});\n$(\"#wb16\").click(function() {\n        $('#target').load('_/components/php/wb/wb9.php') ;\n});\n\n// $('#target').load('_/components/php/wb/wb5.php');}\n",
-			"file": "js/script.js",
-			"file_size": 7658,
-			"file_write_time": 130253398249196261,
-			"settings":
-			{
-				"buffer_size": 7649,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "_/components/php/boilers_left_nav.php",
-			"settings":
-			{
-				"buffer_size": 3165,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -114,26 +107,38 @@
 	},
 	"file_history":
 	[
-		"/C/wamp/www/MadAboutHeat/css/styles.css",
-		"/C/wamp/www/MadAboutHeat/_/components/php/footer.php",
-		"/W/2. Tutorials/JQuery/Load In and Animate Content with jQuery/js.js",
-		"/W/2. Tutorials/JQuery/Load In and Animate Content with jQuery/index.html",
-		"/W/2. Tutorials/JQuery/Load In and Animate Content with jQuery/about.html",
+		"/C/wamp/www/MadAboutHeat/boilers.php",
+		"/C/wamp/www/MadAboutHeat/js/script.js",
 		"/C/wamp/www/MadAboutHeat/_/components/php/wb/wb9.php",
 		"/C/wamp/www/MadAboutHeat/_/components/php/wb/wb5.php",
+		"/C/wamp/www/MadAboutHeat/css/styles.css",
+		"/C/wamp/www/MadAboutHeat/js/snippets.js",
+		"/C/wamp/www/MadAboutHeat/_/components/php/boilers_left_nav.php",
+		"/C/wamp/www/MadAboutHeat/_/components/html/wb/wb9.html",
+		"/C/wamp/www/MadAboutHeat/_/components/html/wb/wb5.html",
+		"/C/wamp/www/MadAboutHeat/index.php",
+		"/C/wamp/www/MadAboutHeat/bootstrap/js/bootstrap.js",
+		"/W/2. Tutorials/jQuery in 30 days/5. AJAX/lesson-23/about.html",
+		"/W/2. Tutorials/jQuery in 30 days/5. AJAX/lesson-23/index.html",
+		"/C/wamp/www/MadAboutHeat/blog-post.html",
+		"/C/wamp/www/MadAboutHeat/NOT_USED/blog-post.html",
+		"/C/wamp/www/MadAboutHeat/_/components/php/nav.php",
+		"/C/Users/Pete/Downloads/products_WB0T6N6X9/sharpvisionbs3/js/script.js",
+		"/W/2. Tutorials/JQuery/Load In and Animate Content with jQuery/index.html",
+		"/C/wamp/www/MadAboutHeat/_/components/php/wb5.php",
+		"/C/wamp/www/MadAboutHeat/_/components/php/wb9.php",
+		"/C/wamp/www/MadAboutHeat/_/components/php/footer.php",
+		"/W/2. Tutorials/JQuery/Load In and Animate Content with jQuery/js.js",
+		"/W/2. Tutorials/JQuery/Load In and Animate Content with jQuery/about.html",
 		"/C/wamp/www/MadAboutHeat/_/components/php/wb/wb6.php",
 		"/W/1. Work/Jenny Hands/2013/Emails/Underwear Mailshot 1/index.html",
 		"/C/Program Files/SublimeText3/Data/Packages/User/Preferences.sublime-settings",
 		"/C/Program Files/SublimeText3/Data/Packages/Default/Preferences.sublime-settings",
-		"/C/wamp/www/MadAboutHeat/boilers.php",
 		"/C/wamp/www/MadAboutHeat/_/components/php/boilers_header.php",
-		"/C/wamp/www/MadAboutHeat/_/components/php/nav.php",
 		"/C/wamp/www/MadAboutHeat/_/components/php/home_page.php",
-		"/C/wamp/www/MadAboutHeat/js/script.js",
 		"/C/wamp/www/MadAboutHeat/contact.php",
 		"/C/wamp/www/MadAboutHeat/css/parallaxslider.css",
 		"/C/wamp/www/MadAboutHeat/_/components/php/contact.php",
-		"/C/wamp/www/MadAboutHeat/index.php",
 		"/C/wamp/www/MadAboutHeat/_/components/php/top_parallax_contact.php",
 		"/C/wamp/www/MadAboutHeat/index.html",
 		"/C/wamp/www/MadAboutHeat/_/components/php/top_parallax.php",
@@ -165,6 +170,13 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"click",
+			"boilers",
+			"href=\"",
+			" type=\"button\"",
+			"/a>",
+			"<a",
+			"a",
 			"</button>",
 			"<button",
 			"btn btn-default",
@@ -180,6 +192,14 @@
 		"regex": false,
 		"replace_history":
 		[
+			"content",
+			"href=\"_/components/php/pbi/",
+			"href=\"_/components/php/wbi/",
+			"href=\"_/components/php/wb/",
+			"",
+			"/button>",
+			"<button",
+			"button",
 			"</a>",
 			"<a href=\"#\"",
 			"btn btn-default btn-lg btn-block",
@@ -196,96 +216,8 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "boilers.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2166,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2147,
-								2147
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "js/script.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 7649,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								7595,
-								7595
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 3924.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "_/components/php/boilers_left_nav.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3165,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								735,
-								735
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],

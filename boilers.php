@@ -42,11 +42,11 @@
             </footer>
         </article>
         <script type="text/javascript" src="js/modernizr.custom.js"></script>
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
-        <script src="js/jquery.photoset-grid.min.js" type="text/javascript"></script>
-        <script src="js/jquery.colorbox.js" type="text/javascript"></script>
-        <script src="js/jquery.backstretch.min.js" type="text/javascript"></script>
-        <script src="bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+        <script type="text/javascript" src="js/jquery.photoset-grid.min.js"</script>
+        <script type="text/javascript" src="js/jquery.colorbox.js"</script>
+        <script type="text/javascript" src="js/jquery.backstretch.min.js"</script>
+        <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"</script>
         <script type="text/javascript" src="js/script.js"></script>
         <script type="text/javascript">parallax(); navbar_change(); image_top(); photo_grid();</script>
     </body>

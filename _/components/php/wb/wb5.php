@@ -5,8 +5,8 @@
 <title>mmm... Ajax!</title>
 </head>
 <body>
-    <section id="content">
-        <div class="boiler-main col-xs-12 col-sm-7 col-md-7 col-lg-8">
+    <section id="content" class="content">
+        <div class="boiler-main col-xs-12 col-sm-7 col-md-8 col-lg-9">
             <h3>WB 5</h3>
             <h4 class="text-right">Price: £1,384.50</h4>
             <table class="table table-striped table-bordered">
@@ -74,11 +74,11 @@
             Availability<br />
             Usually ships in: 2-3 days</p>
         </div>
-        <div class="col-xs-12 col-sm-5 col-md-5 col-lg-4">
+        <div class="col-xs-12 col-sm-5 col-md-4 col-lg-3">
             <aside class="boiler-aside">
                 <!-- <div class="photoset-grid-lightbox" data-layout="12121" style="visibility: hidden;"> -->
-                    <img src="img/boilers/wb/wb9_sml.png" data-highres="img/boilers/wb/wb9_lrg.png" alt="" />
-<!--            </div> --><!--  End photoset Div  -->
+                    <img src="img/boilers/wb/wb5_sml.png" data-highres="img/boilers/wb/wb5_lrg.png" alt="" />
+<!--             </div> --><!--  End photoset Div  -->
                 Boiler image to go in here
             </aside><!--  End Boiler Aside  -->
         </div>

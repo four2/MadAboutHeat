@@ -6,8 +6,8 @@
         <!-- May not be valid but it works -->
         <title>Mad About Heat -- Home</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="description" content="A very good admin theme" />
-        <meta name="author" content="AHthemes" />
+        <meta name="description" content="Mad About Heat -- Home Page" />
+        <meta name="author" content="Peter Dent" />
         <!-- Styles -->
         <link rel="stylesheet" type="text/css" href="css/flexslider.css" />
         <link rel="stylesheet" type="text/css" href="fontawesome/css/font-awesome.min.css" />
@@ -33,10 +33,10 @@
         </article>
         <!--/.doc-->
         <script type="text/javascript" src="js/modernizr.custom.js"></script>
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
-        <script src="js/jquery.flexslider-min.js" type="text/javascript"></script>
-        <script src="js/jquery.backstretch.min.js" type="text/javascript"></script>
-        <script src="bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+        <script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+        <script type="text/javascript" src="js/jquery.backstretch.min.js"></script>
+        <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
         <script type="text/javascript" src="js/jquery.cslider.js"></script>
         <script type="text/javascript" src="js/script.js"></script>
         <script type="text/javascript">parallax(); large_navbar_change(); large_slider_top(); parallax_slider(); clients(); portfolio_effects();</script>

@@ -1200,7 +1200,7 @@ h2 { line-height: 1; }
 	position: absolute;
 	right: 10px;
 	top: 10px;
-	background: url(img/ajax-loader.gif);
+	background: url(../img/ajax-loader.gif);
 	width: 43px;
 	height: 11px;
 	text-indent: -9999em;
@@ -1211,6 +1211,7 @@ h2 { line-height: 1; }
 .justified { text-align: justify; }
 .table-striped { width: 100%;}
 /*.table-striped tr td { padding: 5px; }*/
+
 @media screen, all {
 .navbar {
 	z-index: 9999999 !important; }
